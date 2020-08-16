@@ -1,0 +1,26 @@
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+
+// Partials
+
+// Variables
+@import "_site-variables.scss";
+
+// Extendables
+@import "_extendables.scss";
+
+// Reuseable Components
+@import "_buttons.scss";
+
+// Page styles
+@import "_general-styles.scss";
+@import "_header.scss";
+@import "_breadcrumb.scss";
+@import "_list-items.scss";
+@import "_item.scss";
+@import "_scroll-to-top.scss";
+@import "_content-loader.scss";
+@import "_error-page.scss";

@@ -1,0 +1,17 @@
+/*----------- SITE VARIABLES -----------*/
+
+// COLOURS 				==============================
+
+// Basics
+$black 			                        : rgba(0, 0, 0, 1);
+$darkestGrey 	                        : lighten($black, 10%);
+$darkGrey 		                        : lighten($black, 20%);
+$grey 			                        : lighten($black, 50%);
+$lightGrey 		                        : lighten($black, 80%);
+$lightestGrey 	                        : lighten($black, 90%);
+$white 			                        : rgba(255, 255, 255, 1);
+
+// Brand
+$brandPrimary 	                        : rgba(82, 109, 163, 1);
+$brandSecondary	                        : rgba(220, 33, 138, 1);
+$brandHighlight                         : rgba(236, 75, 68, 1);

@@ -1,0 +1,45 @@
+/*----------- BREADCRUMB -----------*/
+
+#breadcrumb {
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-align: center;
+
+  a,
+  span {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  a {
+    color: $darkestGrey;
+  }
+
+  .seperator {
+    color: $lightGrey;
+    padding: 0 10px;
+  }
+
+  /*----------- BREAKPOINTS -----------*/
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+
+  }
+
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+
+  }
+
+}

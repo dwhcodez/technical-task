@@ -1,0 +1,171 @@
+/*----------- HEADER -----------*/
+
+header {
+
+    #mobile-header {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        min-height: 28px;
+        border-bottom: 1px solid $lightGrey;
+        padding: 11px 15px;
+        height: 70px;
+        background-color: $white;
+
+        #hamburger {
+            display: inline-block;
+            text-align: center;
+
+            .svg-inline--fa {
+                font-size: 22px;
+            }
+
+            #hambuger-menu-text {
+                display: block;
+                font-size: 14px;
+            }
+
+        }
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .site-logo-img {
+                width: 140px;
+            }
+
+        }
+
+        #header-tools-container {
+            position: absolute;
+            right: 15px;
+            top: 11px;
+
+            div {
+                display: inline-block;
+                padding: 5px;
+                font-size: 22px;
+
+                .svg-inline--fa {
+
+                    &:hover {
+                        color: $brandSecondary;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    #tablet-header {
+        border-bottom: 1px solid lightgray;
+        padding: 11px 15px;
+        background-color: $white;
+
+        #site-tools {
+            text-transform: uppercase;
+            font-size: 14px;
+
+            #site-logo-bunny-img {
+                width: 18px;
+                display: inline-block;
+            }
+
+            #site-tools-right {
+                text-align: right;
+            }
+
+            .tool-link {
+                display: inline-block;
+                margin: 0 10px;
+                padding-bottom: 2px;
+
+                &.wishlist {
+
+                    .svg-inline--fa {
+                        margin-left: 10px;
+                    }
+
+                }
+
+            }
+
+        }
+
+        #logo-container {
+            margin-top: 20px;
+
+            .site-logo-img {
+                width: 200px;
+                margin: auto;
+            }
+
+        }
+
+        #site-nav {
+            margin-top: 20px;
+            text-align: center;
+
+            #site-nav-list {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                font-size: 20px;
+                text-transform: uppercase;
+
+                .nav-item {
+                    display: inline-block;
+                    margin: 0 10px;
+                    padding-bottom: 2px;
+                    border-bottom: 2px solid $white;
+
+                    &:hover {
+                        border-bottom: 2px solid $darkestGrey;
+                    }
+
+                    &.highlight {
+                        color: $brandHighlight;
+                    }
+
+                    .svg-inline--fa {
+                        margin-left: 5px;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+    /*----------- BREAKPOINTS -----------*/
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+
+    }
+
+}
+

@@ -1,0 +1,152 @@
+/*----------- LIST ITEMS -----------*/
+
+#list-items {
+    margin: 20px 0;
+
+    #content-info {
+        text-align: center;
+
+        #category-subtitle {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #category-blurb {
+            margin: 10px auto 0;
+            font-size: 16px;
+            max-width: 600px;
+
+            &.closed {
+                height: 50px;
+                overflow: hidden;
+            }
+
+            &.open {
+                height: auto;
+                overflow: auto;
+            }
+
+        }
+
+        #category-read-more {
+            margin-top: 5px;
+            text-transform: uppercase;
+
+            .svg-inline--fa {
+                font-size: 22px;
+                vertical-align: middle;
+                margin-top: -3px;
+                margin-left: 5px;
+            }
+
+        }
+
+    }
+
+    #filter-panel-container {
+        position: fixed;
+        z-index: 200;
+        top: 0;
+        left: 0;
+        background-color: $white;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-768px);
+        transition: all 200ms ease-in-out;
+
+        &.active {
+            transform: translateX(0);
+        }
+
+    }
+
+    #list-filters {
+        margin-top: 15px;
+        padding: 15px;
+        font-size: 14px;
+
+        .list-filter,
+        .list-sort {
+            text-transform: uppercase;
+            padding: 15px;
+            border-top: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+
+            .svg-inline--fa {
+                font-size: 22px;
+                vertical-align: middle;
+                margin-top: -1px;
+                margin-left: 5px;
+            }
+
+        }
+
+        .list-sort {
+            text-align: right;
+        }
+
+    }
+
+    #item-count {
+        margin-top: 5px;
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    #item-list {
+        margin-top: 15px;
+
+        .item {
+            margin: 10px 0;
+        }
+
+    }
+
+    #show-more {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /*----------- BREAKPOINTS -----------*/
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+
+        #content-info {
+
+            #category-subtitle {
+                font-size: 36px;
+            }
+
+            #category-blurb {
+                font-size: 16px;
+            }
+
+        }
+
+        #list-filters {
+            font-size: 18px;
+        }
+
+        #item-count {
+            font-size: 18px;
+        }
+
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+
+    }
+
+}
